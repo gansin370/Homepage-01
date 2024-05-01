@@ -1,0 +1,19 @@
+.nav-menu {
+    color: rgb(61, 61, 61);
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px;
+    padding: 0, 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#Navbar {
+    height: 80px;
+}
+
+.me-auto {
+    margin: auto;
+}
+
+.nav-menu {}

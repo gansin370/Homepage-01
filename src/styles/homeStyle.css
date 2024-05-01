@@ -1,0 +1,315 @@
+.barnner-img-box {}
+
+.bannerimg {
+    width: 100%;
+    height: 100%;
+}
+
+
+#cts-01 {
+    margin-top: 65px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+
+}
+
+#cts-01 .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+;
+
+.cts-01-tbox {
+    text-align: center;
+    margin: 0 0 10px 0;
+
+}
+
+;
+
+.cts-01-tbox h1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 1px;
+    /* color: #7c7c7c; */
+    color: red;
+    padding: 0 13px 0 0;
+    margin: 0 10px 0 0;
+    border-right: solid 1px #dedede;
+}
+
+;
+
+.cts-01-tbox h2 {
+    display: inline-block;
+    font-family: ngeb, 'NanumGothicExtraBold';
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 1;
+    padding: 7px 0 0 0;
+    margin: 0;
+
+}
+
+;
+
+.cts-space {
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+col {
+    justify-content: center;
+}
+
+.cts-banner-img-box-01 {
+    text-align: center;
+}
+
+;
+
+.cts-img-bn-box {
+    text-align: center;
+    padding: 15px;
+    min-height: 203px;
+    cursor: pointer;
+}
+
+;
+
+.cts-img-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+.cts-01-banner-title {
+    display: block;
+    margin: 23px 0 7px 0;
+    font-size: 18px;
+    font-family: ngeb, 'NanumGothicExtraBold';
+    line-height: 100%;
+}
+
+.cts-01-banner-text {
+    display: block;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+
+
+#main-01 {
+    margin-top: 65px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+
+}
+
+#main-01 .overlay-01 {
+    /* background-color: #000; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+
+}
+
+
+#main-01 .container {}
+
+#bottom-banner {
+    margin-top: 65px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+}
+
+.banner-space {
+    margin-top: 65px;
+}
+
+.map-space {
+    margin-top: 30px;
+}
+
+.map-title-text {
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-left: 40px;
+    display: block;
+    align-items: center;
+    text-align: left;
+}
+
+.map-title-text>h4 {
+    font-size: 39px
+}
+
+.map-title-text>span {
+    font-size: 20px;
+}
+
+
+
+#process {
+    margin-top: 65px;
+    margin-bottom: 0px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+
+}
+
+
+.process-box-space {
+    /* opacity: 1px;  */
+    transform: translateY(-100px);
+    animation: 1s ease 0ms 1 normal forwards running fadeInUp;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: fadeInUp;
+    animation-timeline: auto;
+    animation-range-start: normal;
+
+}
+
+.process-space-01 {
+    margin-top: 7.5rem;
+    position: relative;
+    display: flex;
+    gap: 24px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 93rem;
+    padding: 0px 1.5rem;
+    width: 100%;
+}
+
+.process-line {
+    position: absolute;
+    top: 2.25rem;
+    left: 11.25rem;
+    width: 67.5rem;
+
+    border-bottom: 1px dashed rgb(78, 109, 251);
+    padding: 0px 4.5rem;
+}
+
+.process-box {
+    margin-top: 7.5rem;
+    position: relative;
+    display: flex;
+    gap: 24px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 93rem;
+    padding: 0px 1.5rem;
+    width: 100%;
+}
+
+.box-number {
+    z-index: 1;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: rgb(149, 168, 255);
+    border-radius: 7.5rem;
+}
+
+.box-number>div {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 7.5rem;
+    background-color: rgb(78, 109, 251);
+    color: rgb(250, 250, 250);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cts-space .container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.proces-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* 추가 */
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.process-tbox {
+    margin-bottom: 30px;
+    min-width: 140px;
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 30px;
+    /* 추가 */
+}
+
+.process-tbox>div:nth-of-type(1) {
+    font-size: 16px;
+    padding: 1.5rem 0px;
+    height: 70px;
+    background-color: rgb(165, 165, 165);
+    color: rgb(250, 250, 250);
+}
+
+.process-tbox>div:nth-of-type(2) {
+    min-height: 20px;
+    max-height: 100px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    height: 240px;
+    background-color: rgb(241, 244, 249);
+    color: rgb(89, 89, 89);
+}

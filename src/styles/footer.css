@@ -1,0 +1,16 @@
+footer {
+    margin-top: auto;
+    /* Push the footer to the bottom */
+    height: 150px;
+    padding: 20px;
+    padding-bottom: 33px;
+    font-size: 12px;
+    line-height: 1.9;
+    text-align: center;
+    background-color: #3a3d41;
+    color: white;
+}
+
+.fotter-space {
+    margin-top: 20px;
+}
