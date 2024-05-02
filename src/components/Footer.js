@@ -6,17 +6,17 @@ import Col from "react-bootstrap/Col";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="fotter-space">
-
-      </div>
+      <div className="fotter-space"></div>
       <Container fluid>
         <Row>
           <Col>
             <h1>SHINGING PASS</h1>
           </Col>
           <Col>
-            <span>대표: 추용재 | TEL: 010-5590-04823 | <br />주소: 서울특별시 강남구 언주로 703 논현동 90-2 | </span>
-
+            <span>
+              대표 : 추용재 | dydwo6530@naver.com | <br />
+              주소: 서울특별시 강남구 언주로 703 논현동 90-2 |{" "}
+            </span>
           </Col>
         </Row>
       </Container>

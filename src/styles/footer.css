@@ -4,7 +4,7 @@ footer {
     height: 150px;
     padding: 20px;
     padding-bottom: 33px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.9;
     text-align: center;
     background-color: #3a3d41;
@@ -12,5 +12,5 @@ footer {
 }
 
 .fotter-space {
-    margin-top: 20px;
+    margin-top: 30px;
 }

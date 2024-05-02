@@ -11,9 +11,21 @@
 #Navbar {
     height: 80px;
 }
+#Navbar .container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav-title{
+    
+    font-size: 27px;
+}
 
 .me-auto {
+    text-align: center;
     margin: auto;
 }
 
-.nav-menu {}
+.nav-menu {
+    font-size: 36px;
+    padding-left: 290px;
+}

@@ -23,12 +23,7 @@ import ContentSpace from "./components/ContentSpace";
 const App = () => {
   return (
     <div>
-      <Helmet>
-        <meta
-          name="naver-site-verification"
-          content="b53c9fc4cffa7327168b25c68a0a634d6489f945"
-        />
-      </Helmet>
+      <Helmet></Helmet>
       <Navigation />
       {/* <SliderArea /> */}
       <Routes>

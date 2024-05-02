@@ -4,18 +4,19 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import "../styles/nav.css";
+import "../img/imgtext.png";
 const Navigation = () => {
   return (
     <div id="Navbar" className="sticky-top">
       <Navbar bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="/">
-            {/* <img src="" width={100} />
-            SHINGING PASS */}
+          <Navbar.Brand href="/" className="nav-title">
+            {/* <img src="" width={100} />*/}
+            SHINING PASS
           </Navbar.Brand>
           <Nav className="me-auto">
             <Link to="/" className="nav-menu">
-              SHINING PASS
+              <img src="../img/imgtext.png" width={380} />
             </Link>
             {/*    <Link to="/introduction" className="nav-menu">
               디자인소개
@@ -29,7 +30,6 @@ const Navigation = () => {
               제작문의
             </Link> */}
           </Nav>
-
         </Container>
       </Navbar>
       <br />
