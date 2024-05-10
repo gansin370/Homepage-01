@@ -15,14 +15,34 @@
 
 }
 
+.simple-exp{
+    position: fixed; /* 상대 위치 지정 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 190px;
+    left: 1630px;
+    top: 450px;
+    width: 240px;
+    height: 200px;
+    
+    border-radius: 30px;
+}
+.simple-exp >p{
+    margin-top: 20px;
+    color: black;
 
+}
+.exp-img{
+    width: 250px;
+    align-items: center;
+}
 
 /* 작업 소개 부분 */
 
 #cts-01 {
     margin-top: 65px;
     margin-bottom: 20px;
-    
     display: block;
     text-align: center;
     justify-content: center;
@@ -131,6 +151,18 @@ col {
     line-height: 150%;
 }
 
+/* 캐러셀 부분 */
+.carousel-control-prev, .carousel-control-next {
+    width: auto;
+    margin: 0 -4%; /* 화살표 위치를 조정합니다. */
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+
 
 /* 네브바 아래 캐비셀 공간 */
 #main-01 {
@@ -141,6 +173,15 @@ col {
     unicode-bidi: isolate;
 
 }
+.carousel-indicators li {
+    background-color: white; /* 인디케이터의 색상을 하얀색으로 변경합니다. */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1); /* 화살표의 색상을 검정색으로 변경합니다. */
+  }
+
 
 #main-01 .overlay-01 {
     /* background-color: #000; */

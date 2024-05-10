@@ -11,12 +11,8 @@ import "../img/2_S_34p_3bay_01.png";
 import "../img/S_Hilside_1.png";
 import "../img/S_Hilside_2.png";
 import "../img/S_Hilside_3.png";
-
+import "../img/simple_exp1.png";
 import "../img/ShiningpassMap2.png";
-
-import "../img/img_introduction.jpg";
-import "../img/img_interior.jpg";
-import "../img/img_produce.jpg";
 
 import "../img/HillsideImg.png";
 import { Link } from "react-router-dom";
@@ -42,6 +38,12 @@ const Home = () => {
   return (
     <div className="home-body">
       {/* 컨텐츠_네브바 아래 그림 설명 */}
+      {/*       <section id="simple-exp"> */}
+      <div className="simple-exp">
+        <img className="exp-img" src="../img/simple_exp1.png" />
+        {/*  <p>샤이닝패스는 디지털트윈과 UFX 제작을 도와드리고 있습니다</p> */}
+      </div>
+      {/*       </section> */}
       <section id="main-01">
         <div className="container">
           <div className="row">
@@ -86,36 +88,13 @@ const Home = () => {
                     <p></p>
                   </Carousel.Caption>
                 </Carousel.Item>{" "}
-                {/* <Carousel.Item>
-                  <img
-                    src="../img/S_32p_4bay_Kitchen.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <Carousel.Caption>
-                    <h5></h5>
-                    <p></p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="../img/S_32p_4bay_Livingroom.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                  <Carousel.Caption>
-                    <h5></h5>
-                    <p></p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                 */}
               </Carousel>
             </div>
           </div>
         </div>
       </section>
       <section id="cts-0">
-        <div className="centeior">
+        {/*   <div className="centeior">
           <div className="row">
             <Container>
               <Row>
@@ -130,16 +109,15 @@ const Home = () => {
                     <Card.Body>
                       <div>
                         <Card.Title className="cts-01-banner-title">
-                          {/*  MODEL HOUSE */}
                         </Card.Title>
                       </div>
                       <Card.Text className="cts-01-banner-text"></Card.Text>
                       <Card.Text className="cts-01-banner-text2"></Card.Text>
-                      {/*  <Button variant="primary">
+                    <Button variant="primary">
                           <Link to="/interior" className="nav-menu">
                             인테리어 디자인
                           </Link>
-                        </Button> */}
+                        </Button>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -159,23 +137,23 @@ const Home = () => {
                     <Card.Body>
                       <div>
                         <Card.Title className="cts-01-banner-title">
-                          {/*  INTERIOR */}
+                        
                         </Card.Title>
                       </div>
                       <Card.Text className="cts-01-banner-text"></Card.Text>
                       <Card.Text className="cts-01-banner-text2"></Card.Text>
-                      {/* <Button variant="primary">
+                      <Button variant="primary">
                           <Link to="/interior" className="nav-menu">
                             인테리어 디자인
                           </Link>
-                        </Button> */}
+                        </Button> 
                     </Card.Body>
                   </Card>
                 </Col>
               </Row>
             </Container>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <section id="cts-01">
