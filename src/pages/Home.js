@@ -191,25 +191,19 @@ const Home = () => {
             <div className="map-space">
               <div className="mainMap">
                 <Row>
-                  <Col>
+                  <Col sm={6}>
                     <img
                       src="../img/ShiningpassMap2.png"
-                      class="d-block w-100"
+                      class="d-block w-200 sh-map"
                       alt="..."
-                      width={100}
                     />
                   </Col>
-                  <Col>
-                    <div className="map-title-text">
-                      {/*  <h4>LOCATION</h4> */}
-                      <span>
-                        서울특별시 강남구 언주로 703 <br />
-                        논현동 90-2 <br />
-                        010-5590-04823
-                      </span>
-                      <span></span>
-                      <span></span>
-                    </div>
+                  <Col sm={4}>
+                    <img
+                      src="../img/img_location.png"
+                      class="d-block sh-location"
+                      alt="..."
+                    />
                   </Col>
                 </Row>
               </div>

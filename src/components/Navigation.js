@@ -11,12 +11,12 @@ const Navigation = () => {
       <Navbar bg="light" data-bs-theme="light">
         <Container>
           <Navbar.Brand href="/" className="nav-title">
-            <img src="../img/Logo.png" width={38} />
-            SHINING PASS
+            <img src="../img/Logo.png" width={80} />
+            <h4>SHINING PASS</h4>
           </Navbar.Brand>
           <Nav className="me-auto">
             <Link to="/" className="nav-menu">
-              <img src="../img/imgtext.png" width={380} />
+              {/* <img src="../img/imgtext.png" width={380} /> */}
             </Link>
             {/*    <Link to="/introduction" className="nav-menu">
               디자인소개

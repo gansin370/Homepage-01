@@ -16,8 +16,10 @@
     margin-right: 50px;
 }
 .nav-title{
-    
+    display: flex;
     font-size: 27px;
+    margin-left: 10px;
+    align-items: center;
 }
 
 .me-auto {
@@ -29,3 +31,20 @@
     font-size: 36px;
     padding-left: 290px;
 }
+
+img.d-block.sh-map {
+    position: relative;
+    width: 140%;  /* 이미지의 너비를 조정합니다. */
+    height: auto; /* 이미지의 높이를 자동으로 조정합니다. */
+    border: solid 1px rgb(61, 61, 61);
+  }
+
+  img.sh-location {
+    position: relative;
+    right: -220px;
+    margin-top: 130px;
+    margin-left: 50px;
+    
+    width: 400px;  
+    height: auto; 
+  }
