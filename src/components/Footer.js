@@ -10,7 +10,7 @@ const Footer = () => {
       <Container fluid>
         <Row>
           <Col>
-            <h1>SHINGING PASS</h1>
+            <h1>SHINING PASS</h1>
           </Col>
           <Col>
             <span>
